@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface ObjcSampleClass : NSObject
 
@@ -19,5 +21,7 @@
 - (NSNumber * _Nonnull)example2FunctionThatReturnsNonnull:(NSString * _Nonnull)nonnullParameter;
 
 - (NSNumber * _Nullable)example3FunctionThatReturnsNullable:(NSString * _Nullable)nullableParameter;
+
+- (AppDelegate * _Nonnull)example4FunctionThatReturnsNonnull:(ViewController * _Nullable)nullableParameter;
 
 @end
