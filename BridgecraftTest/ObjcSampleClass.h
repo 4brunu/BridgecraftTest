@@ -16,6 +16,10 @@
 
 @property (copy, readonly) NSArray<NSNumber *> * _Nullable nullableArray;
 
+@property (copy, readonly) UIViewController * _Nullable viewControllerGeneric;
+
+@property (copy, readonly) ViewController * _Nullable viewController;
+
 - (NSNumber * _Nonnull)example1FunctionThatReturnsNonnull:(NSString * _Nullable)nullableParameter;
 
 - (NSNumber * _Nonnull)example2FunctionThatReturnsNonnull:(NSString * _Nonnull)nonnullParameter;
