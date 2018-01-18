@@ -1,0 +1,12 @@
+PODS:
+  - Bridgecraft (0.0.3)
+
+DEPENDENCIES:
+  - Bridgecraft (= 0.0.3)
+
+SPEC CHECKSUMS:
+  Bridgecraft: 8aed245840566b8a19dad79552af1c436e5dae4d
+
+PODFILE CHECKSUM: 8723ec4754a548ba949c6ff664dedc380e180ef7
+
+COCOAPODS: 1.3.1

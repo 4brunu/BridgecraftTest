@@ -1,0 +1,6 @@
+framework module Pods_BridgecraftTest {
+  umbrella header "Pods-BridgecraftTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

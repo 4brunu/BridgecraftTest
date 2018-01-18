@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55F6C4B83545CF890A8E9B81 /* Pods_BridgecraftTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5805FC095DC74C651DAF1035 /* Pods_BridgecraftTest.framework */; };
 		A5A5B320200E92D3004F971B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B31F200E92D3004F971B /* AppDelegate.m */; };
 		A5A5B323200E92D3004F971B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5A5B322200E92D3004F971B /* ViewController.m */; };
 		A5A5B326200E92D3004F971B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5A5B324200E92D3004F971B /* Main.storyboard */; };
@@ -18,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		229A299C8E081791BB761643 /* Pods-BridgecraftTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgecraftTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BridgecraftTest/Pods-BridgecraftTest.release.xcconfig"; sourceTree = "<group>"; };
+		5805FC095DC74C651DAF1035 /* Pods_BridgecraftTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BridgecraftTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A5B31B200E92D3004F971B /* BridgecraftTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgecraftTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A5B31E200E92D3004F971B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5A5B31F200E92D3004F971B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		A5A5B335200E92EE004F971B /* SwiftSampleClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSampleClass.swift; sourceTree = "<group>"; };
 		A5A5B337200E92FE004F971B /* ObjcSampleClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjcSampleClass.h; sourceTree = "<group>"; };
 		A5A5B338200E92FE004F971B /* ObjcSampleClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjcSampleClass.m; sourceTree = "<group>"; };
+		DD4DA60A53C186143569E0F5 /* Pods-BridgecraftTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BridgecraftTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BridgecraftTest/Pods-BridgecraftTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55F6C4B83545CF890A8E9B81 /* Pods_BridgecraftTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B51C641A94814884FE0C2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5805FC095DC74C651DAF1035 /* Pods_BridgecraftTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66766BE4C2B39C7692A8E928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD4DA60A53C186143569E0F5 /* Pods-BridgecraftTest.debug.xcconfig */,
+				229A299C8E081791BB761643 /* Pods-BridgecraftTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A5A5B312200E92D3004F971B = {
 			isa = PBXGroup;
 			children = (
 				A5A5B31D200E92D3004F971B /* BridgecraftTest */,
 				A5A5B31C200E92D3004F971B /* Products */,
+				66766BE4C2B39C7692A8E928 /* Pods */,
+				3B51C641A94814884FE0C2E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,9 +112,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5A5B331200E92D4004F971B /* Build configuration list for PBXNativeTarget "BridgecraftTest" */;
 			buildPhases = (
+				70AC19358D4CB2E9D0B05C13 /* [CP] Check Pods Manifest.lock */,
 				A5A5B317200E92D3004F971B /* Sources */,
 				A5A5B318200E92D3004F971B /* Frameworks */,
 				A5A5B319200E92D3004F971B /* Resources */,
+				F73B9000CEA8EF15CEDDF3CD /* [CP] Embed Pods Frameworks */,
+				F60074808ED6B75B33269B2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +174,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70AC19358D4CB2E9D0B05C13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BridgecraftTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60074808ED6B75B33269B2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BridgecraftTest/Pods-BridgecraftTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F73B9000CEA8EF15CEDDF3CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BridgecraftTest/Pods-BridgecraftTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5A5B317200E92D3004F971B /* Sources */ = {
@@ -289,6 +367,7 @@
 		};
 		A5A5B332200E92D4004F971B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4DA60A53C186143569E0F5 /* Pods-BridgecraftTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -307,6 +386,7 @@
 		};
 		A5A5B333200E92D4004F971B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229A299C8E081791BB761643 /* Pods-BridgecraftTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
