@@ -2,13 +2,13 @@
 #
 # Check https://circleci.com/docs/2.0/ios-migrating-from-1-2/ for more details
 #
-version: 2
+version: 1
 jobs:
   build:
 
     # Specify the Xcode version to use
     macos:
-      xcode: "9.2"
+      xcode: "9.2.0"
 
     steps:
       - checkout
