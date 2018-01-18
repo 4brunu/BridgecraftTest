@@ -1,0 +1,8 @@
+machine:
+  xcode:
+    version: 9.2.0
+
+test:
+  override:
+      - sh run_bridgecraft.sh
+      
