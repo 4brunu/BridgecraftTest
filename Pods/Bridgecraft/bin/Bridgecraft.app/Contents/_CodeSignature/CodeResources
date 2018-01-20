@@ -15,19 +15,19 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			RaKB2sZq6tmCLgF1oNP+A4AuCM4=
+			c4DgWheZY1wOzpbPZEw7hb80yUA=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"74d6cfeeeda41ae7c50d76c50210da25db40cbfc" or cdhash H"45a281dac66aead9822e0175a0d3fe03802e08ce"</string>
+			<string>cdhash H"df04a8bb473fe29fd5a7646ff6fd4fd43e99ec21" or cdhash H"7380e05a1799635c0ece96cf644c3b85bf34c940"</string>
 		</dict>
 		<key>Frameworks/SWXMLHash.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			MXebFe9bxG8zvHb0Kv3sAoiE66A=
+			0XCijo98DxVeghdJO+G2BGy2aA4=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"80a968547b104efe25cf23f36711acaace1cb471" or cdhash H"31779b15ef5bc46f33bc76f42afdec028884eba0"</string>
+			<string>cdhash H"2f8d8a6c98b398f4820b611c29726869ee13c094" or cdhash H"d170a28e8f7c0f155e8217493be1b6046cb6680e"</string>
 		</dict>
 		<key>Frameworks/SourceKittenFramework.framework</key>
 		<dict>
@@ -42,19 +42,19 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			LxvQ5hCF0R0sRFqrcWMi08/pKb4=
+			uP4yvvolrPjz/Q21OyiLOLcDCcs=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"c46593a18a3807480bebeca3cf1d5811d06a6564" or cdhash H"2f1bd0e61085d11d2c445aab716322d3cfe929be"</string>
+			<string>cdhash H"e5f330b6c691c5b8504ae2d55b75fba39a1beaa7" or cdhash H"b8fe32befa25acf8f3fd0db53b288b38b70309cb"</string>
 		</dict>
 		<key>Frameworks/Yams.framework</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			+6+tCkIxi/wYQhlvA3cJLfvB7J0=
+			kS/JlXRoA3HNyW6HLWxqnugi81M=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"8836fb9871ec2aa483182c378bdd91e4d6d98020" or cdhash H"fbafad0a42318bfc1842196f0377092dfbc1ec9d"</string>
+			<string>cdhash H"94559881f508c69bc45d00c6efc9af7098f0a070" or cdhash H"912fc99574680371cdc96e872d6c6a9ee822f353"</string>
 		</dict>
 		<key>Frameworks/libswiftAppKit.dylib</key>
 		<dict>

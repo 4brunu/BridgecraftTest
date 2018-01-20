@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "ViewController.h"
 
@@ -14,6 +15,7 @@
 @interface ObjcSampleClass : NSObject
 @property (copy, readonly) NSArray<NSNumber *> * _Nonnull nonnullArray;
 @property (copy, readonly) NSArray<NSNumber *> * _Nullable nullableArray;
+@property (strong, nonatomic) UIViewController * _Nullable viewControllerGeneric1;
 @property (copy, readonly) UIViewController * _Nullable viewControllerGeneric;
 @property (copy, readonly) ViewController * _Nullable viewController;
 //Comment 1

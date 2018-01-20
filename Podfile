@@ -7,6 +7,6 @@ target 'BridgecraftTest' do
 
   # Pods for BridgecraftTest
 
-  pod 'Bridgecraft', '0.0.3'
+  pod 'Bridgecraft', '0.0.4'
 
 end
